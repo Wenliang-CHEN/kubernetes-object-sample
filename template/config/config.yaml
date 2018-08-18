@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  custom_data: "{CUSTOM_DATA}" 
+kind: ConfigMap
+metadata:
+  creationTimestamp: {TIMESTAMP} 
+  name: nginx-config
+  namespace: default
+  resourceVersion: "1"
+  selfLink: /api/v1/namespaces/default/configmaps/ngnix-config

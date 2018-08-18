@@ -1,0 +1,5 @@
+objects:
+  - name: "nginx"
+  - name: "config"
+    config:
+      CUSTOM_DATA: "Item 1"
